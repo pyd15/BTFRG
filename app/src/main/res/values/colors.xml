@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00889a</color>
+    <color name="colorPrimaryDark">#00889a</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="text_black_secondary">#8a000000</color>
+    <color name="background">#eeeeee</color>
+    <color name="search_background">#F8BBD0</color>
+    <color name="toolbar_edge">#00889a</color>
+    <!--primary #3F51B5-->
+    <!--primarydark #303F9F -->
+
+    <color name="partTranslucent">#39000000</color>
+
+    <color name="viewfinder_mask">#B2000000</color>
+</resources>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    >
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <View
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_gravity="bottom"
+                android:background="#87CEFA"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center|bottom"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/diy_dialog_shape"
+                android:foreground="?attr/selectableItemBackground"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/compare"
+                    android:layout_width="61dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:textSize="22dp"
+                    android:text="识别结果"
+                    android:textStyle="bold"
+                    android:layout_weight="0.65"/>
+
+                <Button
+                    android:id="@+id/checkcompare"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/more"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_gravity="bottom"
+                android:background="#87CEFA"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#87CEEB"
+        android:orientation="vertical"
+        >
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            app:cardElevation="3dp"
+            app:contentPadding="5dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/diy_dialog_shape"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="210dp">
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="190dp"
+                    android:background="@drawable/diy_dialog_shape"
+                    >
+
+                    <ImageView
+                        android:id="@+id/picture"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="center"
+                        android:scaleType="center"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="name"
+                        android:textSize="20sp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/latinname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textSize="20sp"
+                        android:text="latinName"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/Kind"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textSize="20sp"
+                        android:text="kind"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:textSize="20sp"
+                        android:layout_gravity="bottom"
+                        android:text="detail"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:id="@+id/homepage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:padding="5dp"
+            android:text="返回首页"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
